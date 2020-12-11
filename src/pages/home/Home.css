@@ -1,0 +1,47 @@
+html {
+    --side-spacing: 20%;
+    scroll-behavior: smooth;
+}
+
+.home-post {
+    padding: 20px;
+}
+
+.home-post .home-post-button {
+    background-color: rgba(200, 200, 200, 0.2);
+}
+
+.ck-editor__editable_inline {
+    min-height: 250px;
+    max-height: 500px;
+    word-break: break-word;
+}
+
+.home-post .header {
+    padding: 5px 12px;
+}
+
+.text-component {
+    padding: 12px;
+    width: 100%;
+}
+
+.icons {
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    background-color: rgba(200, 200, 200, 0.2);
+    padding: 5px 10px;
+    border-radius: 20px;
+}
+
+*:focus {
+    outline: none !important;
+}
+
+
+#friendsSelection::-webkit-scrollbar {
+    display: none;
+}
